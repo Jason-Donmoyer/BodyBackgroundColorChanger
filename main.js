@@ -26,9 +26,5 @@ const changeColor = () => {
   blue.style.color = `rgb(0, 0, ${B})`;
 }
 
-const changeFontColor = () => {
-  return CSS_COLOR_NAMES[9];
-}
-
 // Set initial backgorund color to a random RGB value
 body.style.backgroundColor = changeColor();
