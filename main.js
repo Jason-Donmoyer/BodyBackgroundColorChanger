@@ -4,11 +4,10 @@ const body = document.querySelector('body');
 //  Grab the button and sve as a variable
 const changeColorBtn = document.querySelector('.btn');
 
-let colArr = [
-  'red',
-  'blue',
-  'cyan'
-]
+// Get span text
+const red = document.querySelector('#red');
+const green = document.querySelector('#green');
+const blue = document.querySelector('#blue');
 
 
 // Add functionality to button
@@ -22,6 +21,13 @@ const changeColor = () => {
   let G = Math.floor(Math.random() * 256);
   let B = Math.floor(Math.random() * 256);
   body.style.backgroundColor = `rgb(${R},${G},${B})`;
+  red.style.color = `rgb(${R}, 0, 0)`;
+  green.style.color = `rgb(0, ${G}, 0)`;
+  blue.style.color = `rgb(0, 0, ${B})`;
+}
+
+const changeFontColor = () => {
+  return CSS_COLOR_NAMES[9];
 }
 
 // Set initial backgorund color to a random RGB value
