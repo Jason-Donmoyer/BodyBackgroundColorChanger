@@ -16,6 +16,7 @@ changeColorBtn.addEventListener('click', () => {
 });
 
 // Function to choose a random RGB color and set the body's background to that color
+// Set color name spans to the respective color value
 const changeColor = () => {
   let R = Math.floor(Math.random() * 256);
   let G = Math.floor(Math.random() * 256);
@@ -26,5 +27,5 @@ const changeColor = () => {
   blue.style.color = `rgb(0, 0, ${B})`;
 }
 
-// Set initial backgorund color to a random RGB value
+// Set initial backgorund and font colors to a random RGB value
 body.style.backgroundColor = changeColor();
