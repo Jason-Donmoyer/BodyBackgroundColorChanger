@@ -1,0 +1,16 @@
+body {
+  background-color: red;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+}
