@@ -2,7 +2,7 @@
 const body = document.querySelector('body');
 
 //  Grab the button and sve as a variable
-const changeColorBtn = document.querySelector('.btn');
+const changeColorBtn = document.querySelector('.change-button');
 
 // Get span text
 const red = document.querySelector('#red');

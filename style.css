@@ -1,5 +1,7 @@
 body {
   background-color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .container {
@@ -10,7 +12,12 @@ body {
   align-items: center;
 }
 
-.btn {
+.change-button {
   display: flex;
   align-self: center;
+}
+
+h3 {
+  padding: 10px;
+  border-radius: 4%;
 }
